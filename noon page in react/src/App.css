@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  width: 95%;
+  margin: 0 auto;
+}
+.searchbar:focus {
+  outline: none !important;
+  border: none !important;
+}
+.fixed {
+  position: fixed;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.sticky {
+  position: sticky;
+}
+.flex {
+  display: flex;
+}
+.alc {
+  align-items: center;
+}
+.hnav {
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  z-index: 8;
+  background-color: #fdfbfb;
+  padding: 0px 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.view-cates {
+  background-color: #fdfbfb;
+  border: none;
+  height: 40px;
+}
+.categories a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.categories a:hover {
+  box-shadow: 2px 2px 4px grey;
+}
+.btn-down {
+  margin-right: 3px;
+  border: none;
+  background: transparent;
+}
+.btn-down i {
+  font-size: 25px;
+}
+.carousel-indicators .active {
+  background-color: #feee00 !important;
+}
+.carousel-indicators li {
+  background-color: grey !important;
+}
+.carousel-indicators {
+  bottom: -7vh !important;
+}
+.main {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.main .row .col-md-1 img {
+  width: 100px;
+  height: 150px;
+}
+
+.main-summer {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main-summer img {
+  width: 130px;
+  height: 200px;
+}
+.deals {
+  width: 95%;
+  margin: 0 auto;
+}
+.shop-category {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.shop-category img {
+  width: 100px;
+  height: 150px;
+}
+.main-div {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main-div img {
+  width: 420px;
+}
+.main-footer-div {
+  background-color: #eeeef1;
+  padding: 10px;
+  height: 12vh;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.footer2 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer2 .row .col-md-2 h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer2 .row .col-md-2 p {
+  color: rgb(77, 75, 75);
+  font-size: 13px;
+}
+.icon {
+  color: #353432;
+  background-color: #feee00 !important;
+}
+.footer3 {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-top: 25px;
+  border-top: 1px solid #ddd;
+}
+.footer3 p {
+  color: grey;
+  font-size: 14px;
+}
